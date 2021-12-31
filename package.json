@@ -1,5 +1,5 @@
 {
-  "name": "typescript-graphql",
+  "name": "blog-typescript-graphql",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,7 +12,7 @@
     "@graphql-codegen/typescript": "^2.4.2",
     "@graphql-codegen/typescript-graphql-request": "^4.3.3",
     "@graphql-codegen/typescript-operations": "^2.2.2",
-    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "next",
     "@sveltejs/kit": "next",
     "graphql": "^15",
     "graphql-request": "^3.7.0",
