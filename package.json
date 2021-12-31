@@ -1,0 +1,26 @@
+{
+  "name": "typescript-graphql",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "generate": "graphql-codegen"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^2.3.1",
+    "@graphql-codegen/typescript": "^2.4.2",
+    "@graphql-codegen/typescript-graphql-request": "^4.3.3",
+    "@graphql-codegen/typescript-operations": "^2.2.2",
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "graphql": "^15",
+    "graphql-request": "^3.7.0",
+    "graphql-tag": "^2.12.6",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.9.4",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  }
+}
